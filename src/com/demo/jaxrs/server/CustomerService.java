@@ -12,6 +12,9 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
+import com.demo.jaxrs.to.Customer;
+import com.demo.jaxrs.to.Order;
+
 @Path("/customerservice/")
 @Produces("application/xml")
 public class CustomerService {
